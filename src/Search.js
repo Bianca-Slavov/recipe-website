@@ -11,6 +11,7 @@ export default function Search() {
     function searchRecipe(event) {
         event.preventDefault();
 
+        // documentation: https://www.themealdb.com/api.php
         let apiUrl = `https://www.themealdb.com/api/json/v1/1/search.php?s=${keyword}`;
         axios.get(apiUrl).then(handleResponse);
     }
