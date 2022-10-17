@@ -4,9 +4,15 @@ import axios from "axios";
 export default function Search() {
     let [keyword, setKeyword] = useState("");
 
+    function handleResponse(response) {
+        console.log(response.data);
+    }
+
     function searchRecipe(event) {
         event.preventDefault();
-        alert(`Searching for ${keyword}`);
+
+        let apiUrl = `https://www.themealdb.com/api/json/v1/1/search.php?s=${keyword}`;
+        axios.get(apiUrl).then(handleResponse);
     }
 
     function handleKeywordChange(event) {
