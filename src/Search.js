@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import axios from "axios";
+import Results from './Results';
+import './Search.css';
 
 export default function Search() {
     let [keyword, setKeyword] = useState("");
+    let [results, setResults] = useState(null);
 
     function handleResponse(response) {
         console.log(response.data);
+        setResults(response.data);
     }
 
     function searchRecipe(event) {
@@ -23,8 +27,9 @@ export default function Search() {
     return (
         <div className="Search">
             <form onSubmit={searchRecipe}>
-                <input type="search" onChange={handleKeywordChange} />
+                <input type="search" onChange={handleKeywordChange} placeholder="Search by ingredients or recipes" />
             </form>
+            <Results />
         </div>
     )
 }

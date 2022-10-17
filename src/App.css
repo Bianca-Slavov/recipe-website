@@ -1,15 +1,23 @@
 body {
-    font-family: "Poppins", sans-serif;
-    background-color: #f2f6f8;
+  background-color: #f2f6f8;  
+  font-family: "Poppins", sans-serif;
+  margin: 30px;
+}
+
+.App-header {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .App-footer {
-    font-size: 14px;
-    margin: 30px 0;
-    text-align: center;
-  }
+  font-size: 14px;
+  margin: 30px 0;
+  text-align: center;
+}
 
   
-  .App a:hover {
-    color: #5ba4c6;
-  }
+.App a:hover {
+  color: #5ba4c6;
+}
