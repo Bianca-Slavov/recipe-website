@@ -35,8 +35,7 @@ function App() {
             Bianca Slavov
           </a>
         </footer>
-        
-        </div>
+      </div>
     </div>
   );
 }

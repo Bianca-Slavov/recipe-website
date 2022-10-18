@@ -8,6 +8,7 @@ export default function Search() {
     let [results, setResults] = useState([]);
 
     function handleResponse(response) {
+        console.log(response.data.meals)
         setResults(response.data.meals[0]);
     }
 
