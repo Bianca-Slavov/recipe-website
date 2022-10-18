@@ -4,7 +4,8 @@ import Search from './Search'
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="section-one">
+        
       <header className="App-header">
         Let's get cooking
       </header>
@@ -13,6 +14,8 @@ function App() {
         <Search />
       </main>
 
+      </div>
+      <div className="section-two">
       <footer className="App-footer">
           {" "}
           <a
@@ -31,8 +34,8 @@ function App() {
             Bianca Slavov
           </a>
         </footer>
-
-      </div>
+        
+        </div>
     </div>
   );
 }

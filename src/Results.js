@@ -1,7 +1,14 @@
 import React from "react";
 
-export default function Results() {
-    return(
-        <div className="Results">Hi from results</div>
-    )
+export default function Results(props) {
+    console.log(props.results);
+
+    if (props.results){
+        return  <div className="Results">
+            <h2>{props.results.strMeal}</h2>
+        </div>;
+
+    } else {
+        return null;
+    }
 }

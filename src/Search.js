@@ -5,11 +5,11 @@ import './Search.css';
 
 export default function Search() {
     let [keyword, setKeyword] = useState("");
-    let [results, setResults] = useState(null);
+    let [results, setResults] = useState([]);
 
     function handleResponse(response) {
-        console.log(response.data);
-        setResults(response.data);
+        console.log(response.data.meals[0].strMeal)
+        setResults(response.data.meals[0]);
     }
 
     function searchRecipe(event) {
@@ -29,7 +29,7 @@ export default function Search() {
             <form onSubmit={searchRecipe}>
                 <input type="search" onChange={handleKeywordChange} placeholder="Search by ingredients or recipes" />
             </form>
-            <Results />
+            <Results results={results} />
         </div>
     )
 }
