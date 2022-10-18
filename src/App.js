@@ -15,7 +15,8 @@ function App() {
       </main>
 
       </div>
-      <div className="section-two">
+
+    <div className="section-two">
       <footer className="App-footer">
           {" "}
           <a
