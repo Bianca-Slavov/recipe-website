@@ -11,19 +11,7 @@ body {
   text-transform: uppercase;
 }
 
-.section-one {
-  background-image: url("images/header-img.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 400px;    
- 
-}
 
-.section-two {
-  background: white;
-  width: 100%;
-  height: 400px;
-}
 
 .App-footer {
   font-size: 14px;
