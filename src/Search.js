@@ -9,7 +9,7 @@ export default function Search() {
 
     function handleResponse(response) {
         console.log(response.data.meals)
-        setResults(response.data.meals[0]);
+        setResults(response.data.meals);
     }
 
     function searchRecipe(event) {
