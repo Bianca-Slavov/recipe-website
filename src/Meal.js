@@ -1,8 +1,12 @@
 import React from "react";
 
-export default function Meal(response) {
-    console.log(response)
+export default function Meal(props) {
+    console.log(props);
 return(
-    <div>Hi from Meal</div>
+    <div className="Meal">
+    <h3>{props.meal.strMeal}</h3>
+    <p>{props.meal.strInstructions}</p>
+
+</div>
 )
 }
