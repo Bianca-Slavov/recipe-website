@@ -7,11 +7,15 @@ export default function Results(props) {
          <div className="Results">
             <h2>{props.results.strMeal}</h2>
             {props.results.map(function (meal, index) {
+                if (index < 6) {
                 return (
                     <div key={index}>
                         <Meal meal={meal} />
                     </div>
                 );
+                } else {
+                    return null;
+                }
             })}
         </div>
         );

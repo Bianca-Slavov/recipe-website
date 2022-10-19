@@ -7,7 +7,7 @@ return(
     <div className="Meal">
         <div className="card">
     <h1>{props.meal.strMeal}</h1>
-    <img src={props.meal.strMealThumb} alt="meal"/>
+    <img src={props.meal.strMealThumb} alt="meal" />
     </div>
 </div>
 )
