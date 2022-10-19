@@ -5,7 +5,6 @@ export default function Results(props) {
     if (props.results) {
         return (
          <div className="Results">
-            <h2>{props.results.strMeal}</h2>
             {props.results.map(function (meal, index) {
                 if (index < 6) {
                 return (
@@ -20,6 +19,6 @@ export default function Results(props) {
         </div>
         );
     } else {
-        return null;
+        return ;
     }
 }
