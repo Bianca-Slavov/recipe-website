@@ -6,7 +6,7 @@ export default function Meal(props) {
 return(
     <div className="Meal">
         <div className="card">
-    <h5>{props.meal.strMeal}</h5>
+    <h1>{props.meal.strMeal}</h1>
     <img src={props.meal.strMealThumb} alt="meal"/>
     </div>
 </div>
