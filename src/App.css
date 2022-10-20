@@ -1,13 +1,13 @@
 body {
   background-color: #f2f6f8;  
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 
 .App-header {
   font-size: 25px;
   font-weight: bold;
   padding-top: 40px;
-  text-align: center;
   text-transform: uppercase;
 }
 
@@ -19,4 +19,8 @@ body {
 
 .App a:hover {
   color: #5ba4c6;
+}
+
+.App p{
+  font-size: 14px;
 }

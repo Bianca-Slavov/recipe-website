@@ -5,7 +5,7 @@
 }
 
 h1 {
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
 }
 
@@ -15,13 +15,14 @@ h1 {
 }
 
 .card{
-    background-color: #fee1db;
-    width: 250px;
-    height: 250px;
-    margin: 10px;
+    background-color: #FEEDB1;
+    border: none;
     display: flex;
     justify-content: space-between;
-    
+    width: 250px;
+    height: 250px;
+    margin: 50px 0px;
+    padding: 10px 0px 0px 0px;
 }
 
 .card img{
