@@ -4,21 +4,15 @@ import Search from './Search'
 function App() {
   return (
     <div className="App">
-      <div className="section-one">
-        
       <header className="App-header">
         Let's get cooking
       </header>
       <p>Find the most delicious recipes to impress yourself and your loved ones</p>
 
-
       <main>
         <Search />
       </main>
 
-      </div>
-
-    <div className="section-two">
       <footer className="App-footer">
           {" "}
           <a
@@ -37,7 +31,6 @@ function App() {
             Bianca Slavov
           </a>
         </footer>
-      </div>
     </div>
   );
 }

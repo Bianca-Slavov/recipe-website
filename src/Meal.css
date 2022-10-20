@@ -1,7 +1,7 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 13px;
 }
 
 h1 {
@@ -9,22 +9,35 @@ h1 {
     text-align: center;
 }
 
-.Meal {
-    margin:0 auto;
-  
+.Meal div {
+    display: flex;
+    justify-content: space-between;
 }
 
 .card{
     background-color: #FEEDB1;
     border: none;
-    display: flex;
-    justify-content: space-between;
-    width: 250px;
-    height: 250px;
-    margin: 50px 0px;
+    width: 275px;
+    height: 100%;
+    margin: 40px 0px;
     padding: 10px 0px 0px 0px;
 }
 
 .card img{
     width:100%;
+}
+
+.card button{
+   background: #FEEDB1;
+   border: none;
+   color: #35404e;
+   padding: 5px 0px;
+   width: 100%;
+}
+
+.card button:hover{
+    background: #f5d12b; 
+    color: black;
+    opacity: 80%;
+    transition: all 500ms ease;
 }
