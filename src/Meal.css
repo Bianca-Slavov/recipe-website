@@ -7,21 +7,22 @@
 
 h1 {
     font-size: 15px;
+    color: white;
 }
 
 h2, h3 {
     font-size: 14px;
     font-weight: bold;
     margin: 20px 0px;
+    color: #f76b8a;
 }
-
 
 .Meal div {
     display: inline-block;
 }
 
 .card{
-    background-color: #FEEDB1;
+    background-color: #66bfbf;
     border: none;
     width: 275px;
     height: 100%;
@@ -34,29 +35,28 @@ h2, h3 {
 }
 
 .card button{
-   background: #FEEDB1;
+   background: #66bfbf;
    border: none;
-   color: #35404e;
+   color: white;
    padding: 5px 0px;
    width: 100%;
 }
 
 .card button:hover{
-    background: #f5d12b; 
+    background: #eaf6f6; 
     color: black;
     opacity: 80%;
     transition: all 500ms ease;
 }
 
 .recipeDetails{
-    margin-top: 40px;
-
-
+    margin-top: 20px;
 }
 
 .recipeDetails p{
-    margin-bottom: 5px;
+    color: #35404e;
     line-height: 22px;
+    margin-bottom: 5px;
     padding: 0px 100px;
 }
 

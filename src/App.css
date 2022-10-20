@@ -1,15 +1,18 @@
 body {
-  background-color: #f2f6f8;  
+  background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+  background-attachment: fixed;
   color: #35404e;
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
+
 
 .App-header {
   font-size: 25px;
   font-weight: bold;
   padding: 40px 0px 8px 0px;
   text-transform: uppercase;
+  color: #f76b8a;
 }
 
 .App-footer {
