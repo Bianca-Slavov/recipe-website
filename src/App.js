@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Let's get cooking
+        Let's get cooking 🧑‍🍳
       </header>
       <p>Find the most delicious recipes to impress yourself and your loved ones</p>
 

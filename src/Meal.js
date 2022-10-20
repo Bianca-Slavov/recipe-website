@@ -37,8 +37,9 @@ return(
                <p>{props.meal.strMeasure20} {props.meal.strIngredient20}</p>
                <h3>Preparation</h3>
                <p>{props.meal.strInstructions}</p>
-             
+               <a href={props.meal.strYoutube} target="_blank" alt="">Watch Instruction video</a>
                <h3>Enjoy your meal!</h3>
+            
                <hr />
             </div>
                </div>
