@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Recipe website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here you can find lot's of delicious recipes 🥕🥑🍅🌮🍝
 
 ## Available Scripts
 
