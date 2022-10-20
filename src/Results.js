@@ -6,7 +6,7 @@ export default function Results(props) {
         return (
          <div className="Results">
             {props.results.map(function (meal, index) {
-                if (index < 6) {
+                if (index) {
                 return (
                     <div key={index}>
                         <Meal meal={meal} />
