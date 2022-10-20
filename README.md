@@ -21,5 +21,12 @@ npm start
 
 ## Usage of the website
 
-- Search on ingredients or recipes in the search bar then hit enter
+- Search by ingredients or recipes in the search bar then hit enter
 - Click on the button of a specific recipe to see the specifications (ingredients, preparation, video) of that meal 
+
+## Architectural decisions
+
+- Used React as a Framework as I had some experience with it and I really like React because of the component structure
+- Created different components to have a clear overview of the code. My "rule" is to have a max of 50 to 70 lines per component
+- Added Bootstrap but haven't used it (yet)
+
