@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
 ## Usage of the website
 
 - Search by ingredients or recipes in the search bar then hit enter, you will get to see all the results for your entered keyword
-- (Still in progress) Click on the button of a specific recipe to see the specifications (ingredients, preparation, video) of that meal 
+- Click on the button of a specific recipe to see the specifications (ingredients, preparation, video) of that meal 
 
 ## Architectural decisions
 
