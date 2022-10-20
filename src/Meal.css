@@ -2,12 +2,19 @@
     margin: 0;
     padding: 0;
     font-size: 13px;
+    text-align: center;
 }
 
 h1 {
-    font-size: 13px;
-    text-align: center;
+    font-size: 15px;
 }
+
+h2, h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
 
 .Meal div {
     display: inline-block;
@@ -18,7 +25,7 @@ h1 {
     border: none;
     width: 275px;
     height: 100%;
-    margin: 40px 10px;
+    margin: 30px 10px;
     padding: 10px 0px 0px 0px;
 }
 
@@ -41,8 +48,20 @@ h1 {
     transition: all 500ms ease;
 }
 
-.recipeDetails h1{
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
+.recipeDetails{
+    margin-top: 40px;
+
+
+}
+
+.recipeDetails p{
+    margin-bottom: 5px;
+    line-height: 22px;
+    padding: 0px 100px;
+}
+
+.recipeDetails hr{
+    border: 0.5px solid #35404e;
+    margin: 30px auto;
+    width: 75%;
 }
