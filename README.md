@@ -12,12 +12,9 @@ Single page recipe webiste where you can find lot's of delicious recipes includi
 ## Steps to run the project 
 To get a local copy up and running follow these simple example steps.
 
-1. Git clone 
-git clone https://github.com/Bianca-Slavov/recipe-website.git
-2. Install npm
-npm install
-3. Run the project
-npm start
+1. Git clone > git clone https://github.com/Bianca-Slavov/recipe-website.git
+2. Install npm > npm install
+3. Run the project > npm start
 
 ## Usage of the website
 
