@@ -1,6 +1,6 @@
 # Let's get cooking!
 
-Single page recipe webiste where you can find lot's of delicious recipes including the ingredients & preparations of every meal 🥕🥑🍅🌮🍝
+Single page recipe website where you can find lot's of delicious recipes including the ingredients & preparations of every meal 🥕🥑🍅🌮🍝
 
 ## Built with
 
@@ -24,6 +24,6 @@ To get a local copy up and running follow these simple example steps.
 ## Architectural decisions
 
 - Used React as a Framework as I had some experience with it and I really like React because of the component structure
-- Created different components to have a clear overview of the code. My "rule" is to have a max of 50 to 70 lines per component
+- Created different components to have a clear overview of the code. My "rule" is to have a max of 50 to 70 lines of code per component
 - Added Bootstrap but haven't used it (yet)
 

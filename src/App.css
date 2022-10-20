@@ -25,3 +25,18 @@ body {
 .App p{
   font-size: 14px;
 }
+
+@media (max-width: 915px) {
+  .App-header{
+    font-size: 18px;
+    padding-bottom: 8px;
+  }
+
+  .App p {
+    font-size: 12px;
+  }
+
+  .App-footer{
+    font-size: 12px;
+  }
+}
