@@ -10,8 +10,7 @@ h1 {
 }
 
 .Meal div {
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
 }
 
 .card{
@@ -40,4 +39,10 @@ h1 {
     color: black;
     opacity: 80%;
     transition: all 500ms ease;
+}
+
+.recipeDetails h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
