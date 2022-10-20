@@ -65,3 +65,9 @@ h2, h3 {
     margin: 30px auto;
     width: 75%;
 }
+
+@media (max-width: 915px) {
+    .recipeDetails p{
+        padding: 0px;
+    }
+  }
