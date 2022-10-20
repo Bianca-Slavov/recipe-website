@@ -1,6 +1,5 @@
 import React from "react";
 import Meal from "./Meal"
-import './Results.css';
 
 export default function Results(props) {
     if (props.results) {
@@ -10,9 +9,7 @@ export default function Results(props) {
                 if (index) {
                 return (
                     <div key={index}>
-                        <div className="container">
                         <Meal meal={meal} />
-                        </div>
                     </div>
                 );
                 } else {
