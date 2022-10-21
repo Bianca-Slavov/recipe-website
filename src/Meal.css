@@ -20,7 +20,7 @@ h2, h3 {
 .card {
     background-color: #66bfbf;
     border: none;
-    flex-basis: calc(33.333% 10px);
+    flex-basis: calc(33.333%);
     margin: 50px 30px 20px 30px;
     padding: 10px 0px 0px 0px;
     width: 275px;
