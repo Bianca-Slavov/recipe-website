@@ -13,7 +13,6 @@ return(
      <div className="Meal">
          {showDiv && (
            <div className="recipeDetails">
-               <div className="container">
                <h2>{props.meal.strMeal}</h2>
                <p>{props.meal.strMeasure1}  {props.meal.strIngredient1}</p>
                <p>{props.meal.strMeasure2} {props.meal.strIngredient2}</p>
@@ -41,15 +40,13 @@ return(
                <h3>Enjoy your meal!</h3>
             
                <hr />
-            </div>
                </div>
-       ) }
-         <div className="card">
+       ) } 
+       <div className="card">
              <h1>{props.meal.strMeal}</h1>
              <img src={props.meal.strMealThumb} alt="meal" />
              <button onClick={showRecipeDetails}>Cook this recipe!</button>
-             
-        </div>
+             </div>
     </div>
 );
 }

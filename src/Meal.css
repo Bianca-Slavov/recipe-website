@@ -17,17 +17,14 @@ h2, h3 {
     color: #f76b8a;
 }
 
-.Meal div {
-    display: inline-block;
-}
-
-.card{
+.card {
     background-color: #66bfbf;
     border: none;
+    margin: 50px 30px 20px 30px;
+    padding: 10px 0px 0px 0px;
+    flex-basis: calc(33.333% 10px);
     width: 275px;
     height: 100%;
-    margin: 30px 10px;
-    padding: 10px 0px 0px 0px;
 }
 
 .card img{
@@ -48,6 +45,7 @@ h2, h3 {
     opacity: 80%;
     transition: all 500ms ease;
 }
+
 
 .recipeDetails{
     margin-top: 20px;

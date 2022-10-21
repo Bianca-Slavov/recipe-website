@@ -1,0 +1,33 @@
+.Results {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card {
+        background-color: #66bfbf;
+        border: none;
+        margin: 50px 30px 20px 30px;
+        padding: 10px 0px 0px 0px;
+        flex-basis: calc(33.333% 10px);
+    }
+    
+    .card img{
+        width:100%;
+    }
+    
+    .card button{
+       background: #66bfbf;
+       border: none;
+       color: white;
+       padding: 5px 0px;
+       width: 100%;
+    }
+    
+    .card button:hover{
+        background: #eaf6f6; 
+        color: black;
+        opacity: 80%;
+        transition: all 500ms ease;
+    }
+

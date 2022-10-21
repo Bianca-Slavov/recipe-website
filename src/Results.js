@@ -1,5 +1,6 @@
 import React from "react";
 import Meal from "./Meal"
+import './Results.css';
 
 export default function Results(props) {
     if (props.results) {
