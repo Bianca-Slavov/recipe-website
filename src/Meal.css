@@ -20,9 +20,9 @@ h2, h3 {
 .card {
     background-color: #66bfbf;
     border: none;
+    flex-basis: calc(33.333% 10px);
     margin: 50px 30px 20px 30px;
     padding: 10px 0px 0px 0px;
-    flex-basis: calc(33.333% 10px);
     width: 275px;
     height: 100%;
 }
@@ -45,7 +45,6 @@ h2, h3 {
     opacity: 80%;
     transition: all 500ms ease;
 }
-
 
 .recipeDetails{
     margin-top: 20px;
